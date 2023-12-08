@@ -270,7 +270,7 @@ a:hover {
 .section-border {
   height: 9px;
   width: 220px;
-  background: linear-gradient(37deg, rgb(180, 62, 121) 1%, rgb(247, 70, 58) 100%);
+  background: linear-gradient(37deg, rgb(245, 243, 244) 1%, rgb(252, 252, 252) 100%);
   border-radius: 5px;
   margin: 40px auto 90px;
 }
