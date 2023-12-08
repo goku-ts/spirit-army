@@ -536,7 +536,7 @@ textarea.form-control {
 @media (max-width: 991px) {
   .navigation {
     padding: 20px;
-    /* background: hwb(23 0% 95% / 0.767); */
+    background: hwb(23 0% 95% / 0.767);
   }
 }
 
