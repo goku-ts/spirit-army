@@ -7,7 +7,7 @@ body {
   -webkit-font-smoothing: antialiased;
   font-size: 15px;
   color: #6c6c86;
-  overflow: hidden; /* Hide scrollbars */
+  
 }
 
 p {
