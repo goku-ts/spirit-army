@@ -544,6 +544,7 @@ textarea.form-control {
   font-family: "Poppins", sans-serif;
   padding: 15px;
   font-size: 18px;
+   color: #fff;
 }
 .navbar .nav-item.active {
   font-weight: bold;
@@ -614,13 +615,13 @@ textarea.form-control {
   transition: inherit;
 }
 .hover-bg-primary:hover {
-  background: #f7463a;
+  background: #f5f3f3;
 }
 .hover-bg-primary:hover * {
   color: #fff;
 }
 .hover-bg-primary.active {
-  background: #f7463a;
+  background: #ffffff;
 }
 .hover-bg-primary.active * {
   color: #fff;
