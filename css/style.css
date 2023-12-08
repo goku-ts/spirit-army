@@ -542,7 +542,7 @@ textarea.form-control {
 
 .navbar .nav-item .nav-link {
   font-family: "Poppins", sans-serif;
-  padding: 15px;
+  padding: 5px;
   font-size: 18px;
    color: #fff;
 }
@@ -571,7 +571,7 @@ textarea.form-control {
   margin-bottom: 0 !important;
 }
 .navbar .dropdown-item:not(:last-child) {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .navbar-dark .navbar-nav .nav-link {
