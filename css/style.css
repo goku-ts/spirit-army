@@ -26,12 +26,12 @@ body {
 p, .paragraph {
   font-weight: 400;
   color: #696c6d;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 1.7;
   font-family: "Open Sans", sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4 {
   color: #1c1d1f;
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
@@ -59,7 +59,7 @@ h5, .h5 {
 }
 
 h6, .h6 {
-  font-size: 14px;
+  font-size: 15px;
 }
 
 /* Button style */
@@ -80,23 +80,23 @@ h6, .h6 {
 }
 
 .btn-primary {
-  background: #ce8460;
+  background: #000000;
   color: #fff;
-  border-color: #ce8460;
+  border-color: #000000;
 }
 .btn-primary:active, .btn-primary:hover, .btn-primary.focus, .btn-primary.active {
-  background: #ce8460 !important;
-  border-color: #ce8460 !important;
+  background: #000000 !important;
+  border-color: #000000 !important;
 }
 
 .btn-outline-primary {
   background: transparent;
   color: #696c6d;
-  border-color: #ce8460;
+  border-color: #000000;
 }
 .btn-outline-primary:active, .btn-outline-primary:hover, .btn-outline-primary.focus, .btn-outline-primary.active {
-  background: #ce8460 !important;
-  border-color: #ce8460 !important;
+  background: #000000 !important;
+  border-color: #000000 !important;
   color: #fff;
 }
 
@@ -163,7 +163,7 @@ select:focus {
 }
 
 a:hover {
-  color: #ce8460;
+  color: #030303;
 }
 
 .slick-slide {
@@ -302,7 +302,7 @@ a:hover {
   color: #1c1d1f;
 }
 .navbar-white .navbar-nav .nav-link:hover {
-  color: #ce8460;
+  color: #020202;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
@@ -416,7 +416,7 @@ a:hover {
   color: #1c1d1f;
 }
 .post-title:hover {
-  color: #ce8460;
+  color: #040404;
 }
 
 .post-meta li {
@@ -428,7 +428,7 @@ a:hover {
   border-bottom: 1px dotted #ddd;
 }
 .post-meta a:hover {
-  color: #ce8460;
+  color: #020202;
 }
 
 .recent-thumb-alt {
@@ -518,7 +518,7 @@ a:hover {
   outline: 0;
 }
 .slick-arrow:hover {
-  background: #ce8460;
+  background: #060606;
 }
 
 .prevArrow {
@@ -583,7 +583,7 @@ a:hover {
   border-bottom: 1px dotted #ddd;
 }
 .content a:hover {
-  color: #ce8460;
+  color: #080808;
 }
 .content ol,
 .content ul {
@@ -938,7 +938,7 @@ a:hover {
   height: 50px;
   width: 50px;
   border-radius: 50%;
-  background-color: #ce8460;
+  background-color: #0e0e0e;
   color: #fff;
   text-align: center;
   line-height: 50px;
