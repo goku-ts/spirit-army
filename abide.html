@@ -12,7 +12,7 @@
    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
    <meta name="description" content="Abide in my love... : Living in the
    Father's love.">
-
+   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
    <!-- plugins -->
    <link rel="preload" href="https://fonts.gstatic.com/s/opensans/v18/mem8YaGs126MiZpBA-UFWJ0bbck.woff2"
       style="font-display: optional;">
@@ -167,9 +167,15 @@
                <br>
                <br>
                <P><strong>Blessed by the Word?</strong></P>
-               <a href="send?text= https://spiritarmy.com/abide.html" data-action="share">Share
+               <a href="whatsapp://send?text= https://spiritarmy.com/abide.html"
+                  data-action="share/whatsapp/share">Share
                   via
                   Whatsapp</a>
+
+               <div class="container mt-5">
+                  <button class="btn btn-primary" id="shareButton">Share</button>
+               </div>
+
             </div>
       </div>
 
@@ -190,6 +196,30 @@
          </div>
       </div>
    </footer>
+
+
+   <script>
+      document.getElementById('shareButton').addEventListener('click', async () => {
+         if (navigator.share) {
+            try {
+               await navigator.share({
+                  title: document.title,
+                  text: 'Check out this amazing content!',
+                  url: window.location.href
+               });
+               console.log('Content shared successfully');
+            } catch (error) {
+               console.error('Error sharing:', error);
+            }
+         } else {
+            alert('Web Share API is not supported in your browser.');
+         }
+      });
+   </script>
+
+   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 
    <!-- JS Plugins -->
