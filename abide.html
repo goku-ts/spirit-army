@@ -79,10 +79,10 @@
 
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link" href="#">About</a>
+                     <a class="nav-link" href="#">Prayer</a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link" href="#">Prayer</a>
+                     <a class="nav-link" href="#">About</a>
                   </li>
                   <li class="nav-item">
                      <a class="nav-link" href="#">Contact</a>
@@ -91,15 +91,15 @@
                </ul>
 
                <!-- <div class="search px-4">
-                  <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
-                  <div class="search-wrapper">
-                     <form action="javascript:void(0)" class="h-100">
-                        <input class="search-box pl-4" id="search-query" name="s" type="search"
-                           placeholder="Type &amp; Hit Enter...">
-                     </form>
-                     <button id="searchClose" class="search-close"><i class="ti-close text-dark"></i></button>
-                  </div>
-               </div> -->
+						<button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
+						<div class="search-wrapper">
+							<form action="javascript:void(0)" class="h-100">
+								<input class="search-box pl-4" id="search-query" name="s" type="search"
+									placeholder="Type &amp; Hit Enter...">
+							</form>
+							<button id="searchClose" class="search-close"><i class="ti-close text-dark"></i></button>
+						</div>
+					</div> -->
 
             </div>
          </nav>
@@ -185,9 +185,15 @@
    </section>
 
    <div class="row justify-content-around">
-      <a class="nav-link" href="#">Home</a>
-      <a class="nav-link" href="#">Prayer</a>
-      <a class="nav-link" href="#">About</a>
+      <a class="nav-link" href="#">
+         <p><strong>Home</strong></p>
+      </a>
+      <a class="nav-link" href="#">
+         <p><strong>Prayer</strong></p>
+      </a>
+      <a class="nav-link" href="#">
+         <p><strong>About</strong></p>
+      </a>
    </div>
 
    <footer class="section-sm pb-0 border-top border-default">
@@ -196,11 +202,19 @@
             <a href="javascript:void(0);" id="scrollTop"><i class="ti-angle-up"></i></a>
          </div>
          <div class="text-center">
-            <p class="content">&copy; 2020 - Spirit Army</p>
+            <p class="content">&copy; 2024 - Spirit Army</p>
          </div>
       </div>
    </footer>
 
+
+   <!-- JS Plugins -->
+   <script src="plugins/jQuery/jquery.min.js"></script>
+   <script src="plugins/bootstrap/bootstrap.min.js" async></script>
+   <script src="plugins/slick/slick.min.js"></script>
+
+   <!-- Main Script -->
+   <script src="js/script.js"></script>
 
    <script>
       document.getElementById('shareButton').addEventListener('click', async () => {
@@ -226,13 +240,7 @@
    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 
-   <!-- JS Plugins -->
-   <script src="plugins/jQuery/jquery.min.js"></script>
-   <script src="plugins/bootstrap/bootstrap.min.js" async></script>
-   <script src="plugins/slick/slick.min.js"></script>
 
-   <!-- Main Script -->
-   <script src="js/script.js"></script>
 </body>
 
 </html>
