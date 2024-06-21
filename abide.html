@@ -166,14 +166,10 @@
                <br>
                <br>
                <br>
-               <P><strong>Blessed by the Word?</strong></P>
-               <a href="whatsapp://send?text= https://spiritarmy.com/abide.html"
-                  data-action="share/whatsapp/share">Share
-                  via
-                  Whatsapp</a>
 
                <div class="container mt-5">
-                  <button class="btn btn-primary" id="shareButton">Share</button>
+                  <P><strong>Blessed by the Word?</strong></P>
+                  <button class="btn btn-primary" id="shareButton">Share &#10084;</button>
                </div>
 
             </div>
@@ -204,7 +200,7 @@
             try {
                await navigator.share({
                   title: document.title,
-                  text: 'Check out this amazing content!',
+                  //text: 'Be blessed !',
                   url: window.location.href
                });
                console.log('Content shared successfully');
