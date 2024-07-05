@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+
+
+<html lang="en-us">
+
+<head>
+	<meta charset="utf-8">
+	<title>Home</title>
+
+	<!-- mobile responsive meta -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+	<meta name="description" content="This is meta description">
+
+
+	<!-- plugins -->
+	<link rel="preload" href="https://fonts.gstatic.com/s/opensans/v18/mem8YaGs126MiZpBA-UFWJ0bbck.woff2"
+		style="font-display: optional;">
+	<link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet"
+		href="https://fonts.googleapis.com/css?family=Montserrat:600%7cOpen&#43;Sans&amp;display=swap" media="screen">
+
+	<link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
+	<link rel="stylesheet" href="plugins/slick/slick.css">
+
+	<!-- Main Stylesheet -->
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/mp.css">
+
+	<!--Favicon-->
+	<!-- <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+	<link rel="icon" href="images/logo.png" type="image/x-icon"> -->
+</head>
+
+<!-- Libraries Stylesheet -->
+<link href="lib/animate/animate.min.css" rel="stylesheet">
+<script src="lib/wow/wow.min.js"></script>
+<script src="lib/easing/easing.min.js"></script>
+
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7T690D01WM"></script>
+<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag() { dataLayer.push(arguments); }
+	gtag('js', new Date());
+
+	gtag('config', 'G-7T690D01WM');
+</script>
+
+
+<body>
+	<!-- navigation -->
+	<header class="sticky-top bg-white border-bottom border-default">
+		<div class="container">
+
+			<nav class="navbar navbar-expand-lg navbar-white">
+				<a class="navbar-brand" href="index.html">
+					<img class="img-fluid" width="150px" src="images/2.png" alt="SpiritArmyLogo">
+
+				</a>
+				<button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+					<i class="ti-menu"></i>
+				</button>
+
+				<div class="collapse navbar-collapse text-center" id="navigation">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item dropdown">
+							<a class="nav-link" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
+								aria-expanded="false">
+
+							</a>
+
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="./index.html">Home</a>
+						</li>
+						<!-- <li class="nav-item">
+							<a class="nav-link" href="./prayer.html">Prayer</a>
+						</li> -->
+						<li class="nav-item">
+							<a class="nav-link" href="#">About</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Contact</a>
+						</li>
+
+					</ul>
+
+					<!-- <div class="search px-4">
+						<button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
+						<div class="search-wrapper">
+							<form action="javascript:void(0)" class="h-100">
+								<input class="search-box pl-4" id="search-query" name="s" type="search"
+									placeholder="Type &amp; Hit Enter...">
+							</form>
+							<button id="searchClose" class="search-close"><i class="ti-close text-dark"></i></button>
+						</div>
+					</div> -->
+
+				</div>
+			</nav>
+		</div>
+	</header>
+	<!-- /navigation -->
+
+	<section class="section">
+		<div class="container">
+			<div class="row">
+				<div class="col-12  mb-5 mb-lg-0">
+					<div class="player ">
+						<div class="player__header">
+							<div class="player__img player__img--absolute slider">
+								<button class="player__button player__button--absolute--nw playlist">
+									<img src="http://physical-authority.surge.sh/imgs/icon/playlist.svg"
+										alt="playlist-icon">
+								</button>
+								<button class="player__button player__button--absolute--center play">
+									<img src="./images/play-video.png" alt="play-icon">
+									<img src="./images/music.png" alt="pause-icon">
+								</button>
+								<div class="slider__content">
+									<img class="img slider__img" src="http://physical-authority.surge.sh/imgs/1.jpg"
+										alt="cover">
+
+								</div>
+							</div>
+							<div class="player__controls">
+								<button class="player__button back">
+									<img class="img" src="http://physical-authority.surge.sh/imgs/icon/back.svg"
+										alt="back-icon">
+								</button>
+								<p class="player__context slider__context">
+									<strong class="slider__name"></strong>
+									<span class="player__title slider__title"></span>
+								</p>
+								<button class="player__button next">
+									<img class="img" src="http://physical-authority.surge.sh/imgs/icon/next.svg"
+										alt="next-icon">
+								</button>
+								<div class="progres">
+									<div class="progres__filled"></div>
+								</div>
+							</div>
+						</div>
+						<ul class="player__playlist list">
+							<li class="player__song">
+								<img class="player__img img" src="http://physical-authority.surge.sh/imgs/1.jpg"
+									alt="cover">
+								<p class="player__context">
+									<b class="player__song-name"></b>
+									<span class="flex">
+										<span class="player__title">#Ep 1</span>
+										<span class="player__song-time"></span>
+									</span>
+								</p>
+								<audio class="audio" src="http://physical-authority.surge.sh/music/1.mp3"></audio>
+							</li>
+
+						</ul>
+					</div>
+					<article class="row mb-5 wow fadeInUp" data-wow-delay="0.1s">
+						<div class="col-12 ">
+							<div class="post-slider">
+								<img loading="lazy" src="images/post/abide.jpg" class="img-fluid" alt="post-thumb">
+							</div>
+						</div>
+						<div class="col-lg-10 mx-auto">
+							<h3><a class="post-title" href="./devotion/abide.html">"Abide in my love..." : Living in the
+									Father's love.</a></h3>
+							<ul class="list-inline post-meta mb-4">
+								<li class="list-inline-item"><i class="ti-user mr-2"></i><a href="author.html">HGb</a>
+								</li>
+								<li class="list-inline-item">Date : July 2, 2024</li>
+							</ul>
+							<p><strong>John 15:9 ISV As the Father loves me, so I also love you. So abide in my
+									love.</strong><br>
+								Sometimes, accepting what we feel we don't deserve can make us feel unworthy and guilty.
+								God's love goes beyond our understanding. It is a mystery.
+								When we feel most undeserving of His love, that’s when He sees us as most deserving.
+							</p> <a href="./devotion/abide.html" class="btn btn-outline-primary">Continue Reading</a>
+						</div>
+					</article>
+					<!-- <article class="row mb-5 wow fadeInUp" data-wow-delay="0.1s">
+						<div class="col-12">
+							<div class="post-slider">
+								<img loading="lazy" src="images/post/follow.jpg" class="img-fluid" alt="post-thumb">
+							</div>
+						</div>
+						<div class="col-lg-10 mx-auto">
+							<h3><a class="post-title" href="./devotion/follow-me.html">"Follow me, and i will make
+									you..." :
+									The path to becoming.</a></h3>
+							<ul class="list-inline post-meta mb-4">
+								<li class="list-inline-item"><i class="ti-user mr-2"></i><a href="author.html">HGb</a>
+								</li>
+								<li class="list-inline-item">Date : June 22, 2024</li>
+							</ul>
+							<p><strong>John 15:9 ISV As the Father loves me, so I also love you. So abide in my
+									love.</strong><br>
+								Sometimes, accepting what we feel we don't deserve can make us feel unworthy and guilty.
+								God's love goes beyond our understanding. It is a mystery.
+								When we feel most undeserving of His love, that’s when He sees us as most deserving.
+							</p> <a href="./devotion/follow-me.html" class="btn btn-outline-primary">Continue
+								Reading</a>
+						</div>
+					</article>
+					<article class="row mb-5 wow fadeInUp" data-wow-delay="0.1s ">
+						<div class="col-12">
+							<div class="post-slider">
+								<img loading="lazy" src="images/post/daughter.jpg" class="img-fluid" alt="post-thumb">
+							</div>
+						</div>
+						<div class="col-lg-10 mx-auto">
+							<h3><a class="post-title" href="./devotion/daughter.html">"Daughter, your faith..." :
+									Exchanging faith for a miracle</a></h3>
+							<ul class="list-inline post-meta mb-4">
+								<li class="list-inline-item"><i class="ti-user mr-2"></i><a href="author.html">HGb</a>
+								</li>
+								<li class="list-inline-item">Date : June 22, 2024</li>
+							</ul>
+							<p><strong>John 15:9 ISV As the Father loves me, so I also love you. So abide in my
+									love.</strong><br>
+								Sometimes, accepting what we feel we don't deserve can make us feel unworthy and guilty.
+								God's love goes beyond our understanding. It is a mystery.
+								<article class="row mb-5 wow fadeInUp" data-wow-delay="0.1s">
+									<div class="col-12">
+										<div class="post-slider">
+											<img loading="lazy" src="images/post/fear-not.jpg" class="img-fluid" alt="post-thumb">
+										</div>
+									</div>
+									<div class="col-lg-10 mx-auto">
+										<h3><a class="post-title" href="./devotion/fear-not.html">"Do not be afraid, i am with
+												you..."
+												:
+												Courage in His presence</a></h3>
+										<ul class="list-inline post-meta mb-4">
+											<li class="list-inline-item"><i class="ti-user mr-2"></i><a href="author.html">HGb</a>
+											</li>
+											<li class="list-inline-item">Date : June 22, 2024</li>
+										</ul>
+										<p><strong>John 15:9 ISV As the Father loves me, so I also love you. So abide in my
+												love.</strong><br>
+											Sometimes, accepting what we feel we don't deserve can make us feel unworthy and guilty.
+											God's love goes beyond our understanding. It is a mystery.
+											When we feel most undeserving of His love, that’s when He sees us as most deserving.
+										</p> <a href="./devotion/fear-not.html" class="btn btn-outline-primary">Continue Reading</a>
+									</div>
+								</article>
+								When we feel most undeserving of His love, that’s when He sees us as most deserving.
+							</p> <a href="./devotion/daughter.html" class="btn btn-outline-primary">Continue Reading</a>
+						</div>
+					</article> -->
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer class="section-sm pb-0 border-top border-default">
+		<div class="container">
+			<div class="row justify-content-between">
+
+			</div>
+			<div class="scroll-top">
+				<a href="javascript:void(0);" id="scrollTop"><i class="ti-angle-up"></i></a>
+			</div>
+			<div class="text-center">
+				<p class="content">&copy; 2024 - Spirit Army</p>
+			</div>
+		</div>
+	</footer>
+
+
+	<!-- JS Plugins -->
+	<script src="plugins/jQuery/jquery.min.js"></script>
+	<script src="plugins/bootstrap/bootstrap.min.js" async></script>
+	<script src="plugins/slick/slick.min.js"></script>
+	<script src="js/wow.min.js"></script>
+
+	<!-- Main Script -->
+	<script src="js/script.js"></script>
+	<script src="js/mp.js"></script>
+</body>
+
+</html>
