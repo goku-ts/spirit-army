@@ -39,9 +39,9 @@ const progresFilled = progres.querySelector(".progres__filled");
 let isMove = false;
 // creat functions
 function openPlayer() {
-  playerHeader.classList.add("open-header");
-  playerControls.classList.add("move");
-  slider.classList.add("open-slider");
+  //   playerHeader.classList.add("open-header");
+  //   playerControls.classList.add("move");
+  //   slider.classList.add("open-slider");
 }
 function closePlayer() {
   playerHeader.classList.remove("open-header");
@@ -73,26 +73,26 @@ function back(index) {
   run();
 }
 function changeSliderContext() {
-  sliderContext.style.animationName = "opacity";
-  sliderName.textContent =
-    playerPlayList[count].querySelector(".player__title").textContent;
-  sliderTitle.textContent =
-    playerPlayList[count].querySelector(".player__song-name").textContent;
-  if (sliderName.textContent.length > 16) {
-    const textWrap = document.createElement("span");
-    textWrap.className = "text-wrap";
-    textWrap.innerHTML = sliderName.textContent + " " + sliderName.textContent;
-    sliderName.innerHTML = "";
-    sliderName.append(textWrap);
-  }
-  if (sliderTitle.textContent.length >= 18) {
-    const textWrap = document.createElement("span");
-    textWrap.className = "text-wrap";
-    textWrap.innerHTML =
-      sliderTitle.textContent + " " + sliderTitle.textContent;
-    sliderTitle.innerHTML = "";
-    sliderTitle.append(textWrap);
-  }
+  //   sliderContext.style.animationName = "opacity";
+  //   sliderName.textContent =
+  //     playerPlayList[count].querySelector(".player__title").textContent;
+  //   sliderTitle.textContent =
+  //     playerPlayList[count].querySelector(".player__song-name").textContent;
+  //   if (sliderName.textContent.length > 16) {
+  //     const textWrap = document.createElement("span");
+  //     textWrap.className = "text-wrap";
+  //     textWrap.innerHTML = sliderName.textContent + " " + sliderName.textContent;
+  //     sliderName.innerHTML = "";
+  //     sliderName.append(textWrap);
+  //   }
+  //   if (sliderTitle.textContent.length >= 18) {
+  //     const textWrap = document.createElement("span");
+  //     textWrap.className = "text-wrap";
+  //     textWrap.innerHTML =
+  //       sliderTitle.textContent + " " + sliderTitle.textContent;
+  //     sliderTitle.innerHTML = "";
+  //     sliderTitle.append(textWrap);
+  //   }
 }
 function changeBgBody() {
   body.style.backgroundColor = bgBody[count];
