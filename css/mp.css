@@ -161,7 +161,7 @@ img[alt ="pause-icon"] {
 display: none ;
 }
 .player__controls {
-width: 77% ;
+width: 65% ;
 gap: .5em 0 ;
 display: flex ;
 flex-wrap: wrap ;
@@ -211,8 +211,8 @@ font-weight: bold ;
 color: #00000086 ;
 }
 .progres {
-width: 40% ;
-height: .50em ;
+width: 50% ;
+height: .40em ;
 cursor: pointer ;
 border-radius: 1em ;
 touch-action : none ;
@@ -235,7 +235,7 @@ background-color: #0c1c35 ;
 right: 0 ;
 width: .35em ;
 content: " " ;
-height: .35em ;
+height: .40em ;
 border-radius: 50% ;
 position: absolute ;
 background-color: #5781bd ;
