@@ -229,7 +229,7 @@ display: flex ;
 position: relative ;
 align-items: center ;
 border-radius: inherit ;
-background-color: #78adfe ;
+background-color: #0c1c35 ;
 }
 .progres__filled::before {
 right: 0 ;
