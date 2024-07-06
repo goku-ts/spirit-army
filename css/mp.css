@@ -161,7 +161,7 @@ img[alt ="pause-icon"] {
 display: none ;
 }
 .player__controls {
-width: 65% ;
+width: 60% ;
 gap: .5em 0 ;
 display: flex ;
 flex-wrap: wrap ;
